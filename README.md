@@ -53,8 +53,14 @@ Implemented a PyTorch LSTM to treat SoC estimation as a time-series regression p
 * **Architecture:** Single-layer LSTM (Hidden dim=64) + Fully Connected Output.
 
 ---
+📂 Dataset
 
+This project uses the NASA PCoE Randomized Battery Usage Data Set.
 
+    Source: NASA Ames Research Center
+
+    Preprocessing: The raw .mat files are parsed to extract Voltage, Current, and Temperature profiles under Random Walk (RW) loading conditions.
+---
 ## 👨‍💻 Author
 
 **[Luiz Rosa]** *Power Systems Engineer | Python Developer* [[LinkedIn](https://www.linkedin.com/in/luiz-gustavo-rosa-12407536b/)]
